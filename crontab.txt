@@ -1,0 +1,10 @@
+add the following file into the crontab file(command:crontab -e):
+
+5 3 1 * * /usr/shell/clearlog.sh /home/logs/APIXCX/
+6 3 1 * * /usr/shell/clearlog.sh /home/logs/cardoverworld/
+7 3 1 * * /usr/shell/clearlog.sh /home/logs/chargestation/
+8 3 1 * * /usr/shell/clearlog.sh /home/logs/chargingCMS/
+9 3 1 * * /usr/shell/clearlog.sh /home/logs/school-hydroelectricity/
+10 3 1 * * /usr/shell/clearlog.sh /home/logs/sharedChargingPile/
+
+the course of Crontab please reference the blog https://www.cnblogs.com/sunjiguang/p/5730561.html
